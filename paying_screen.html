@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="uber eats logo.png" type="image/x-icon">
+    <title>UBER EATS payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="payment">Select payment:</label>
+    <select name="payment" id="payment">
+        <option value="VISA">VISA</option>
+        <option value="mastercard">mastercard</option>
+    </select>
+    <p>Click the button down bellow to pay</p>
+    <button onclick="show_txt('Your food is on way to your home!')" id="btn">Pay</button>
+    <p id="txt"></p>
+    <img src="UBER EATS.png" height="150">
+    <script>
+        function show_txt(txt) {
+            document.querySelector("#txt").innerHTML = txt;
+        }
+    </script>
+</body>
+</html>

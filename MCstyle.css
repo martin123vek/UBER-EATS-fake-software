@@ -1,0 +1,13 @@
+body {
+    background-color: #bd0017;
+}
+#btn {
+   cursor: pointer;
+   border: 2px solid;
+   border-radius: 10px;
+   background-color: #fff;
+   transition: 0.5s ease;
+}
+#btn:hover {
+    background-color:#adadad;
+}
